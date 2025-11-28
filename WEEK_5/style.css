@@ -27,7 +27,9 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   
 }
-header{
+/* header{
+  position: fixed;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,7 +60,51 @@ header button{
 header button:hover{
   background-color: rgb(69, 67, 67);
   
+} */
+ header{
+  position: fixed;
+  /* top: 0;                 
+  left: 0; */
+  width: 100%;           
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background: #fff;       /* phải có để không trong suốt */
+  /* z-index: 1000;        */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
+
+header ul{
+  display: flex;
+}
+
+header li{
+  padding: 0 15px;
+  color: rgb(65, 64, 64);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header li:hover{
+  color: rgb(195, 100, 10);
+}
+
+header li:first-child{
+  color: rgb(195, 100, 10);
+}
+
+header button{
+  background-color: rgb(3, 2, 10);
+  padding: 10px;
+  color: white;
+  border-radius: 25px;
+}
+
+header button:hover{
+  background-color: rgb(69, 67, 67);
+}
+
 .page1 {
   background-image: url("https://i.pinimg.com/1200x/1e/58/40/1e5840958893d2fc325c6b8d5af93ab8.jpg");
   background-repeat: no-repeat;
@@ -83,9 +129,12 @@ header button:hover{
   padding: 20px;
   margin-left: 260px;
   color: white;
-  background-color: rgb(233, 73, 4);
+  background-color: rgb(252, 149, 64);
   border-radius: 30px;
   border: none;
+}
+.info button:hover{
+  background-color: rgb(255, 132, 0);
 }
 .page2{
   background-color: #e2e7ec;
@@ -176,6 +225,8 @@ header button:hover{
   height: 300px;
   width: 600px;
 }
+
+
 .page3 h2{
   padding: 10px 0;
 }

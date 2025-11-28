@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+body{
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+header{
+  background-color: #4E4441;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+header h1{
+  margin-left: 80px;
+  padding: 10px;
+}
+header nav ul{
+  display: flex;
+  padding: 0 170px;
+  
+}
+ul li{
+  width: 100px;
+}
+ul li:hover{
+  color: #ddd9d8;
+}
+header p{
+  padding-right: 40px;
+}
+header button{
+  background-color: rgb(240, 191, 99);
+  padding: 7px;
+  border-radius: 15px;
+  border: none;
+  width: 100px;
+}
+header button:hover{
+  background-color: rgb(208, 140, 14);
+}
+.page1{
+  background-image: url("../KTRA/coffee app/coffee_image2.png");
+  color: white;
+  height: 750px;
+
+}
+.p1_info{
+  width: 50%;
+  padding: 80px;
+  padding-top: 170px;
+}
+.p1_info p:last-of-type{
+  padding-bottom: 20px;
+}
+.p1_info img{
+  padding: 80px 0;
+  text-align: center;
+  
+}
+.p1_info button{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(221, 179, 101);
+  border-radius: 24px;
+  border: none;
+}
+.p1_info button:hover{
+  background-color: rgb(236, 166, 35);
+}
+.page2{
+  
+}
+.page2_top{
+  display: flex;
+}
+.page2_top_left{
+  width: 60%;
+  padding: 50px;
+}
+.page2_top_left h1{
+  color: #603809;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+.page2_top_left p{
+  font-size: 26px;
+  color: grey;
+  padding-bottom: 30px;
+}
+.page2_top_left button{
+  background-color: rgb(226, 182, 100);
+  border: none;
+  border-radius: 14px;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;
+}
+.img1{
+  transform: translateY(-150px);
+}
+.page2_bottom{
+  text-align: center;
+  transform: translateY(-170px);
+}
+.page2_bottom h1{
+  color: #603809;
+  font-size: 50px;
+}
+.page2_bottom p{
+  color: grey;
+  padding: 30px;
+}
+.page2_center{
+  padding: 50px;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.p2_ct1{
+  background-color: rgb(242, 197, 204);
+}
+.p2_ct2,.p2_ct3,.p2_ct4 {
+  border: rgb(242, 197, 204) ;
+  background-color: rgb(242, 232, 234);
+}
+.page2_center img{
+  padding-left: 110px;
+}
+.page2_center h4{
+  padding: 20px;
+  font-size: 30px;
+  color: #603809;
+}
+.page2_bottom h4{
+  font-size: 30px;
+  color: #603809;
+}
+.page2_bottom button{
+  
+}
