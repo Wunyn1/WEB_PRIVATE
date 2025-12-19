@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 150, 170);
+}
+.bolder{
+  padding: 50px;
+  width: 400px;
+  min-height: 500px;
+  border-radius: 15px;
+  background-color: white;
+}
+#name, #score{
+  border-radius: 15px;
+  background-color: rgb(247, 211, 211);
+  padding: 25px;
+  width: 300px;
+  margin-bottom: 3px;
+  margin-top: 20px;
+  border: 2px solid rgb(240, 144, 160);
+  font-size: 17px;
+}
+#name:hover, #score:hover{
+  border: 2px solid rgb(238, 39, 72);
+  box-shadow: 0 4px 8px rgba(162, 156, 156, 0.3) ;
+}
+  
+button{
+  color: rgb(254, 246, 246);
+  border-radius: 15px;
+  background-color: rgb(227, 33, 72);
+  font-size: 17px;
+  padding: 25px;
+  width: 300px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  border: none;
+}
+button:hover{
+  background-color: rgb(187, 7, 43);
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.bolder h2{
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.bolder h5{
+  color: rgb(93, 92, 92);
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+li{
+  padding: 25px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+li:hover{
+  background-color: rgb(227, 104, 129);
+  transition: 0.3s;
+}
