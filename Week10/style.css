@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 154, 170);
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+}
+.restaurant-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+.restaurant-card:hover{
+  background-color: rgb(243, 119, 119);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3) ;
+}
+.restaurant-card{
+  background-color: rgb(243, 142, 142);
+  padding: 10px;
+  gap: 10px;
+  border-radius: 15px;
+}
+.restaurant-card img{
+  border-radius: 15px;
+  
+}
+.restaurant-text{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.left{
+  flex: 3;
+  min-width: 0;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  flex: 1;
+  justify-content: end;
+  min-width: 0;
+}
+.left p, .left h3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+  white-space: nowrap;
+  margin-top: 8px;
+}
+.right p{
+  white-space: nowrap;
+  margin-top: 8px;
+}
+.right p:nth-child(1){
+  display: inline-block;
+  padding: 4px 5px;
+  background-color: rgb(15, 136, 47);
+  margin-left: auto;
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  
+}
